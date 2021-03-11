@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-function test() {
+function profileShop() {
   return (
     <div className="test">
-        <h1>test</h1>
+      <h1>profileShop</h1>
     </div>
   );
 }
 
-export default test;
+export default profileShop;
