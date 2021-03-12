@@ -1,6 +1,6 @@
 
 import React ,{Component}from 'react';
-import '../login/Login.css';
+import './Login.css';
 
 
 
@@ -28,7 +28,7 @@ class login extends Component {
 
    render(){
     return (
-        <div className="container">
+        <div className="login-container">
             <div className="forms-container">
                 <div className="sign-in-sing-up">
                     <form action="" className="sign-in-form">

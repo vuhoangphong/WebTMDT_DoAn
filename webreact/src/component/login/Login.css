@@ -8,14 +8,14 @@ body, input{
     font-family: 'Poppins', sans-serif;
 }
 
-.container{
+.login-container{
     position: relative;
     max-width: 100%;
     min-height: 100vh;
     background-color: #fff;
     overflow: hidden;
 }
-.container:before{
+.login-container:before{
     content: '';
     position: absolute;
     width: 2000px;
@@ -225,40 +225,40 @@ form.sign-up-form{
 
 
 /* animation*/
-.container.sign-up-mode:before{
+.login-container.sign-up-mode:before{
     transform: translate(100%,-50%);
     right: 52%;
 }
 
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content{
+.login-container.sign-up-mode .left-panel .image,
+.login-container.sign-up-mode .left-panel .content{
     transform: translate(-800px);
 }
 
 
-.container.sign-up-mode .right-panel .content,
-.container.sign-up-mode .right-panel .image
+.login-container.sign-up-mode .right-panel .content,
+.login-container.sign-up-mode .right-panel .image
 {
     transform: translateX(0px) ;
 }
 
-.container.sign-up-mode .left-panel{
+.login-container.sign-up-mode .left-panel{
     pointer-events: none;
 }
 
-.container.sign-up-mode .right-panel{
+.login-container.sign-up-mode .right-panel{
     pointer-events: all;
 }
 
-.container.sign-up-mode .sign-in-sing-up{
+.login-container.sign-up-mode .sign-in-sing-up{
     left: 25%;
 }
 
-.container.sign-up-mode form.sign-in-form{
+.login-container.sign-up-mode form.sign-in-form{
     z-index: 1;
     opacity: 0;
 }
-.container.sign-up-mode form.sign-up-form{
+.login-container.sign-up-mode form.sign-up-form{
     z-index: 2;
     opacity: 1;
 }
