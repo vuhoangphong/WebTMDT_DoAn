@@ -1,10 +1,6 @@
-*{
-    padding: 0;
-     margin: 0;
-    box-sizing: border-box; 
-}
 
-body, input{
+
+ input{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -50,7 +46,7 @@ body, input{
     transition: 1s 0.7s ease-in-out;
 }
 
-form{
+.form-login.form-login{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,16 +58,16 @@ form{
     transition: .2s .7s ease-in-out;
 }
 
-form.sign-in-form{
+.form-login.sign-in-form{
     z-index: 2;
 }
 
-form.sign-up-form{
+.form-login.sign-up-form{
     z-index: 1;
     opacity: 0;
 }
 
-.title{
+.form-login .title{
     font-size: 2.2rem;
     color: aquamarine;
     margin-bottom: 10px;
@@ -109,7 +105,7 @@ form.sign-up-form{
     font-weight: 500;
 }
 
-.btn{
+.btn-login{
     width: 150px;
     height: 49px;
     border: none;
@@ -124,7 +120,7 @@ form.sign-up-form{
     background-color: rgb(122, 202, 31);
 }
 
-.btn:hover{
+.btn-login:hover{
     background-color: blueviolet;
 }
 
@@ -197,24 +193,24 @@ form.sign-up-form{
     font-size: 0.8rem;
 }
 
-.panel h3{
+.login-container .panel h3{
     font-weight: 600;
     line-height: 1;
     font-size: 1.5rem;
 }
 
-.panel p{
+.login-container .panel p{
     font-size: 0.95rem;
     padding: 0.7rem 0;
 }
 
-.panel .content{
+.login-container .panel .content{
     color: #fff;
     transition: .9s .6s ease-in-out;
 }
 
 
-.image{
+.login-container .panels-container .image{
     width: 100%;
     transition: .9s .6s ease-in-out;
 }
@@ -254,11 +250,11 @@ form.sign-up-form{
     left: 25%;
 }
 
-.login-container.sign-up-mode form.sign-in-form{
+.login-container.sign-up-mode .form-login.sign-in-form{
     z-index: 1;
     opacity: 0;
 }
-.login-container.sign-up-mode form.sign-up-form{
+.login-container.sign-up-mode .form-login.sign-up-form{
     z-index: 2;
     opacity: 1;
 }

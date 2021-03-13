@@ -13,16 +13,15 @@ class login extends Component {
         };
         this.signUp = this.signUp.bind(this);
         this.signIn = this.signIn.bind(this);
-        
       }
       
     signUp(){
-        const container = document.querySelector(".container");
+        const container = document.querySelector(".login-container");
         container.classList.add("sign-up-mode");         
     }
 
     signIn(){
-        const container = document.querySelector(".container");
+        const container = document.querySelector(".login-container");
         container.classList.remove("sign-up-mode");              
     }
 
@@ -31,7 +30,7 @@ class login extends Component {
         <div className="login-container">
             <div className="forms-container">
                 <div className="sign-in-sing-up">
-                    <form action="" className="sign-in-form">
+                    <form action="" className="form-login sign-in-form">
                         <h2 className="title"> Sig in</h2>
                         <div className="input-field">
                             <i className="fas fa-user"></i>  
@@ -41,7 +40,7 @@ class login extends Component {
                             <i className="fas fa-lock"></i>
                             <input type="text" placeholder="password" name="password"></input>
                         </div>
-                        <input type="submit" value="login" className="btn solid" ></input>
+                        <input type="submit" value="login" className="btn-login solid" ></input>
                         <p className="social-text"> Đăng nhập với:</p>
                         <div className="social-media">
                             <a href className="social-icon">
@@ -56,7 +55,7 @@ class login extends Component {
                         </div>
                     </form>
                     
-                    <form action="" className="sign-up-form">
+                    <form action="" className="form-login sign-up-form">
                         <h2 className="title"> Sig up</h2>
                         <div className="input-field">
                             <i className="fas fa-user"></i>  
@@ -70,7 +69,7 @@ class login extends Component {
                             <i className="fas fa-lock"></i>
                             <input type="text" placeholder="password" name="password"></input>
                         </div>
-                        <input type="submit" value="sign up" className="btn solid"></input>
+                        <input type="submit" value="sign up" className="btn-login solid"></input>
                         <p className="social-text"> Đăng ký với:</p>
                         <div className="social-media">
                             <a href className="social-icon">
