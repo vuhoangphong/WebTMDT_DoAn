@@ -63,7 +63,7 @@ function home() {
             <div class="row">
               <div class="col-md-4 clearfix">
                 <div class="logo pull-left">
-                  <a href="index.html">
+                  <a href="/">
                     <img src="image/home/logo.png" alt="" />
                   </a>
                 </div>
@@ -111,28 +111,33 @@ function home() {
                 <div class="shop-menu clearfix pull-right">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="">
+                      <a href="/account">
                         <i class="fa fa-user"></i> Account
                       </a>
                     </li>
                     <li>
-                      <a href="">
+                      <a href="#">
                         <i class="fa fa-star"></i> Wishlist
                       </a>
                     </li>
                     <li>
-                      <a href="checkout.html">
+                      <a href="/checkout">
                         <i class="fa fa-crosshairs"></i> Checkout
                       </a>
                     </li>
                     <li>
-                      <a href="cart.html">
+                      <a href="/cart">
                         <i class="fa fa-shopping-cart"></i> Cart
                       </a>
                     </li>
                     <li>
-                      <a href="login.html">
+                      <a href="/login">
                         <i class="fa fa-lock"></i> Login
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/register">
+                        <i class="fa fa-lock"></i> Register
                       </a>
                     </li>
                   </ul>
@@ -178,13 +183,13 @@ function home() {
                           <a href="product-details.html">Product Details</a>
                         </li>
                         <li>
-                          <a href="checkout.html">Checkout</a>
+                          <a href="/checkout">Checkout</a>
                         </li>
                         <li>
-                          <a href="cart.html">Cart</a>
+                          <a href="/cart">Cart</a>
                         </li>
                         <li>
-                          <a href="login.html">Login</a>
+                          <a href="/login">Login</a>
                         </li>
                       </ul>
                     </li>
