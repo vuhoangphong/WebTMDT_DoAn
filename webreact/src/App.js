@@ -8,6 +8,7 @@ import profileShop from './component/profileShop/profileShop'
 import profileUser from './component/profileUser/profileUser'
 import register from './component/register/register'
 import search from './component/search/search'
+import CheckOut from './component/checkOut/CheckOut'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Manager_Shop from './component/manager_Shop/manager_Shop';
 
@@ -18,9 +19,10 @@ function App() {
           <Switch>
             <Route path="/" exact component={home}/>  
             <Route path="/admin" component={admin}/>
-            <Route path="/shop" component={Manager_Shop}/>
             <Route path="/detail" component={detail}/>
+            <Route path="/CheckOut" component={CheckOut}/>
             <Route path="/login" component={login}/>
+            <Route path="/shop" component={Manager_Shop}/>
             <Route path="/profileShop" component={profileShop}/>
             <Route path="/profileUser" component={profileUser}/>
             <Route path="/register" component={register}/>
