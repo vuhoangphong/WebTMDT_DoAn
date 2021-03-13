@@ -1,5 +1,5 @@
 import "./Sidebar.css";
-import logo from "../../../../assets/logo.png";
+import logo from "../../../assets/logo_shop.png";
 
 const Sidebar = ({ sidebarOpen, closeSidebar }) => {
   return (
@@ -7,7 +7,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__title">
         <div className="sidebar__img">
           <img src={logo} alt="logo" />
-          <h1>Admin</h1>
+          <h1>Tên Shop</h1>
         </div>
         <i
           onClick={() => closeSidebar()}
@@ -20,24 +20,24 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
       <div className="sidebar__menu">
         <div className="sidebar__link active_menu_link">
           <i className="fa fa-home"></i>
-          <a href="#">Dashboard</a>
+          <a href="#">Quản Lý Đơn Hàng</a>
         </div>
         <h2>Quản Lý</h2>
         <div className="sidebar__link">
           <i className="fa fa-user-secret" aria-hidden="true"></i>
-          <a href="#">Quản Lý Danh Mục</a>
+          <a href="./shop/create">Quản Lý Sản Phẩm</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-building-o"></i>
-          <a href="#">Quản Lý Shop</a>
+          <a href="#">Tài Chính</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-wrench"></i>
-          <a href="#">Quản Lý Đơn Hàng</a>
+          <a href="#">Kênh Marketing</a>
         </div>
         <div className="sidebar__link">
           <i className="fa fa-archive"></i>
-          <a href="#">Quản Lý Tài Khoản Hệ Thống</a>
+          <a href="#">Thông Tin Tài Khoản</a>
         </div>
         {/* <div className="sidebar__link">
           <i className="fa fa-handshake-o"></i>

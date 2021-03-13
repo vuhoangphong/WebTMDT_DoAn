@@ -21,12 +21,9 @@ const Main = () => {
         {/* <!-- MAIN CARDS STARTS HERE --> */}
         <div className="main__cards">
           <div className="card">
-            <i
-              className="fa fa-user-o fa-2x text-lightblue"
-              aria-hidden="true"
-            ></i>
+          <i className="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Doanh Thu</p>
+              <p className="text-primary-p">Shop Đăng Ký Mới/Tháng</p>
               <span className="font-bold text-title">578</span>
             </div>
           </div>
@@ -34,7 +31,7 @@ const Main = () => {
           <div className="card">
             <i className="fa fa-calendar fa-2x text-red" aria-hidden="true"></i>
             <div className="card_inner">
-              <p className="text-primary-p">Lịch</p>
+              <p className="text-primary-p">Khách Hàng Đăng Ký Mới</p>
               <span className="font-bold text-title">2467</span>
             </div>
           </div>
@@ -45,7 +42,7 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Videos</p>
+              <p className="text-primary-p">Sản Phẩm Đăng Bán</p>
               <span className="font-bold text-title">340</span>
             </div>
           </div>
@@ -56,7 +53,7 @@ const Main = () => {
               aria-hidden="true"
             ></i>
             <div className="card_inner">
-              <p className="text-primary-p">Number of Likes</p>
+              <p className="text-primary-p">Sản Phẩm Bán Ra</p>
               <span className="font-bold text-title">645</span>
             </div>
           </div>
@@ -68,8 +65,8 @@ const Main = () => {
           <div className="charts__left">
             <div className="charts__left__title">
               <div>
-                <h1>Daily Reports</h1>
-                <p>Cupertino, California, USA</p>
+                <h1>Tổng Đơn Hàng Hệ Thống</h1>
+                
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
@@ -79,30 +76,30 @@ const Main = () => {
           <div className="charts__right">
             <div className="charts__right__title">
               <div>
-                <h1>Stats Reports</h1>
-                <p>Cupertino, California, USA</p>
+                <h1>Thống Kê Chi Phí</h1>
+                
               </div>
               <i className="fa fa-usd" aria-hidden="true"></i>
             </div>
 
             <div className="charts__right__cards">
               <div className="card1">
-                <h1>Income</h1>
+                <h1>Đã Bán</h1>
                 <p>$75,300</p>
               </div>
 
               <div className="card2">
-                <h1>Sales</h1>
+                <h1>Tổng Giá Trị Voucher</h1>
                 <p>$124,200</p>
               </div>
 
               <div className="card3">
-                <h1>Users</h1>
+                <h1>Người Dùng</h1>
                 <p>3900</p>
               </div>
 
               <div className="card4">
-                <h1>Orders</h1>
+                <h1>Đơn Hàng</h1>
                 <p>1881</p>
               </div>
             </div>

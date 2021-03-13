@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import avatar from "../../../../assets/avatar.svg";
+import avatar from "../../../assets/avatar.svg";
 
 const Navbar = ({ sidebarOpen, openSidebar }) => {
   return (
@@ -10,7 +10,7 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
       <div className="navbar__left">
         
         <a className="active_link" href="#">
-          Trang Chủ Admin
+          Trang Quản Lý Shop
         </a>
       </div>
       <div className="navbar__right">
