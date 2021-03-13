@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 /*  styling scrollbars  */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
   height: 6px;
 }
@@ -78,4 +78,4 @@ body {
       "nav"
       "main";
   }
-}
+} */
