@@ -86,7 +86,7 @@ class login extends Component {
                 </div>
             </div>
             <div className="panels-container">
-               <div className="panel left-panel">
+               <div className="panel-login left-panel">
                    <div className="content">
                        <h3>test</h3>
                        <p>test</p>
@@ -94,7 +94,7 @@ class login extends Component {
                    </div>
                    <img src="image/loginAndRegister/shopping.svg" className="image" alt=""/>
                </div>
-               <div className="panel right-panel">
+               <div className="panel-login right-panel">
                    <div className="content">
                        <h3>test</h3>
                        <p>test</p>
