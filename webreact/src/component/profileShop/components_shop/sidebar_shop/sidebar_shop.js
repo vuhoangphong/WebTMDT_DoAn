@@ -19,7 +19,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
 
 
       <div className="sidebar__link">
-          <a href="#">Sản Phẩm: <span className="font-bold text-title">116</span></a>
+          <a href="./profileShop/sanpham">Sản Phẩm: <span className="font-bold text-title">116</span></a>
         </div>
 
         <div className="sidebar__link">
