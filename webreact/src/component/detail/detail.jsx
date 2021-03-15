@@ -1,7 +1,6 @@
-import "./header.css";
 import React from "react";
 
-function home() {
+function detail() {
   return (
     <div>
       <header id="header">
@@ -12,12 +11,12 @@ function home() {
                 <div class="contactinfo">
                   <ul class="nav nav-pills">
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-phone"></i> +2 95 01 88 821
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-envelope"></i> info@domain.com
                       </a>
                     </li>
@@ -28,27 +27,27 @@ function home() {
                 <div class="social-icons pull-right">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-dribbble"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-google-plus"></i>
                       </a>
                     </li>
@@ -112,33 +111,28 @@ function home() {
                 <div class="shop-menu clearfix pull-right">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="/account">
+                      <a href="">
                         <i class="fa fa-user"></i> Account
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="">
                         <i class="fa fa-star"></i> Wishlist
                       </a>
                     </li>
                     <li>
-                      <a href="/checkout">
+                      <a href="checkout.html">
                         <i class="fa fa-crosshairs"></i> Checkout
                       </a>
                     </li>
                     <li>
-                      <a href="/cart">
+                      <a href="cart.html">
                         <i class="fa fa-shopping-cart"></i> Cart
                       </a>
                     </li>
                     <li>
-                      <a href="/login">
+                      <a href="login.html">
                         <i class="fa fa-lock"></i> Login
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/register">
-                        <i class="fa fa-lock"></i> Register
                       </a>
                     </li>
                   </ul>
@@ -168,9 +162,7 @@ function home() {
                 <div class="mainmenu pull-left">
                   <ul class="nav navbar-nav collapse navbar-collapse">
                     <li>
-                      <a href="index.html" class="active">
-                        Home
-                      </a>
+                      <a href="/">Home</a>
                     </li>
                     <li class="dropdown">
                       <a href="#">
@@ -181,16 +173,18 @@ function home() {
                           <a href="shop.html">Products</a>
                         </li>
                         <li>
-                          <a href="product-details.html">Product Details</a>
+                          <a href="product-details.html" class="active">
+                            Product Details
+                          </a>
                         </li>
                         <li>
-                          <a href="/checkout">Checkout</a>
+                          <a href="checkout.html">Checkout</a>
                         </li>
                         <li>
-                          <a href="/cart">Cart</a>
+                          <a href="cart.html">Cart</a>
                         </li>
                         <li>
-                          <a href="/login">Login</a>
+                          <a href="login.html">Login</a>
                         </li>
                       </ul>
                     </li>
@@ -226,133 +220,6 @@ function home() {
         </div>
       </header>
 
-      <section id="slider">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div
-                id="slider-carousel"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#slider-carousel"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#slider-carousel" data-slide-to="1"></li>
-                  <li data-target="#slider-carousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <div class="col-sm-6">
-                      <h1>
-                        <span>E</span>-SHOPPER
-                      </h1>
-                      <h2>Free E-Commerce Template</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua.{" "}
-                      </p>
-                      <button type="button" class="btn btn-default get">
-                        Get it now
-                      </button>
-                    </div>
-                    <div class="col-sm-6">
-                      <img
-                        src="image/home/girl1.jpg"
-                        class="girl img-responsive"
-                        alt=""
-                      />
-                      <img
-                        src="image/home/pricing.png"
-                        class="pricing"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="item">
-                    <div class="col-sm-6">
-                      <h1>
-                        <span>E</span>-SHOPPER
-                      </h1>
-                      <h2>100% Responsive Design</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua.{" "}
-                      </p>
-                      <button type="button" class="btn btn-default get">
-                        Get it now
-                      </button>
-                    </div>
-                    <div class="col-sm-6">
-                      <img
-                        src="image/home/girl2.jpg"
-                        class="girl img-responsive"
-                        alt=""
-                      />
-                      <img
-                        src="image/home/pricing.png"
-                        class="pricing"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-
-                  <div class="item">
-                    <div class="col-sm-6">
-                      <h1>
-                        <span>E</span>-SHOPPER
-                      </h1>
-                      <h2>Free Ecommerce Template</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua.{" "}
-                      </p>
-                      <button type="button" class="btn btn-default get">
-                        Get it now
-                      </button>
-                    </div>
-                    <div class="col-sm-6">
-                      <img
-                        src="image/home/girl3.jpg"
-                        class="girl img-responsive"
-                        alt=""
-                      />
-                      <img
-                        src="image/home/pricing.png"
-                        class="pricing"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <a
-                  href="#slider-carousel"
-                  class="left control-carousel hidden-xs"
-                  data-slide="prev"
-                >
-                  <i class="fa fa-angle-left"></i>
-                </a>
-                <a
-                  href="#slider-carousel"
-                  class="right control-carousel hidden-xs"
-                  data-slide="next"
-                >
-                  <i class="fa fa-angle-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section>
         <div class="container">
           <div class="row">
@@ -379,19 +246,19 @@ function home() {
                       <div class="panel-body">
                         <ul>
                           <li>
-                            <a href="#">Nike </a>
+                            <a href="">Nike </a>
                           </li>
                           <li>
-                            <a href="#">Under Armour </a>
+                            <a href="">Under Armour </a>
                           </li>
                           <li>
-                            <a href="#">Adidas </a>
+                            <a href="">Adidas </a>
                           </li>
                           <li>
-                            <a href="#">Puma</a>
+                            <a href="">Puma</a>
                           </li>
                           <li>
-                            <a href="#">ASICS </a>
+                            <a href="">ASICS </a>
                           </li>
                         </ul>
                       </div>
@@ -416,34 +283,34 @@ function home() {
                       <div class="panel-body">
                         <ul>
                           <li>
-                            <a href="#">Fendi</a>
+                            <a href="">Fendi</a>
                           </li>
                           <li>
-                            <a href="#">Guess</a>
+                            <a href="">Guess</a>
                           </li>
                           <li>
-                            <a href="#">Valentino</a>
+                            <a href="">Valentino</a>
                           </li>
                           <li>
-                            <a href="#">Dior</a>
+                            <a href="">Dior</a>
                           </li>
                           <li>
-                            <a href="#">Versace</a>
+                            <a href="">Versace</a>
                           </li>
                           <li>
-                            <a href="#">Armani</a>
+                            <a href="">Armani</a>
                           </li>
                           <li>
-                            <a href="#">Prada</a>
+                            <a href="">Prada</a>
                           </li>
                           <li>
-                            <a href="#">Dolce and Gabbana</a>
+                            <a href="">Dolce and Gabbana</a>
                           </li>
                           <li>
-                            <a href="#">Chanel</a>
+                            <a href="">Chanel</a>
                           </li>
                           <li>
-                            <a href="#">Gucci</a>
+                            <a href="">Gucci</a>
                           </li>
                         </ul>
                       </div>
@@ -469,19 +336,19 @@ function home() {
                       <div class="panel-body">
                         <ul>
                           <li>
-                            <a href="#">Fendi</a>
+                            <a href="">Fendi</a>
                           </li>
                           <li>
-                            <a href="#">Guess</a>
+                            <a href="">Guess</a>
                           </li>
                           <li>
-                            <a href="#">Valentino</a>
+                            <a href="">Valentino</a>
                           </li>
                           <li>
-                            <a href="#">Dior</a>
+                            <a href="">Dior</a>
                           </li>
                           <li>
-                            <a href="#">Versace</a>
+                            <a href="">Versace</a>
                           </li>
                         </ul>
                       </div>
@@ -543,43 +410,43 @@ function home() {
                   <div class="brands-name">
                     <ul class="nav nav-pills nav-stacked">
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(50)</span>Acne
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(56)</span>Grüne Erde
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(27)</span>Albiro
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(32)</span>Ronhill
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(5)</span>Oddmolly
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(9)</span>Boudestijn
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="">
                           {" "}
                           <span class="pull-right">(4)</span>Rösch creative
                           culture
@@ -591,7 +458,7 @@ function home() {
 
                 <div class="price-range">
                   <h2>Price Range</h2>
-                  <div class="well text-center">
+                  <div class="well">
                     <input
                       type="text"
                       class="span2"
@@ -603,7 +470,7 @@ function home() {
                       id="sl2"
                     />
                     <br />
-                    <b class="pull-left">$ 0</b> <b class="pull-right">$ 600</b>
+                    <b>$ 0</b> <b class="pull-right">$ 600</b>
                   </div>
                 </div>
 
@@ -614,268 +481,167 @@ function home() {
             </div>
 
             <div class="col-sm-9 padding-right">
-              <div class="features_items">
-                <h2 class="title text-center">Features Items</h2>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product1.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
+              <div class="product-details">
+                <div class="col-sm-5">
+                  <div class="view-product">
+                    <img src="image/product-details/1.jpg" alt="" />
+                    <h3>ZOOM</h3>
+                  </div>
+                  <div
+                    id="similar-product"
+                    class="carousel slide"
+                    data-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <a href="">
+                          <img
+                            src="image/product-details/similar1.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar2.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar3.jpg"
+                            alt=""
+                          />
                         </a>
                       </div>
-                      <a href="/detail">
-                        <div class="product-overlay">
-                          <div class="overlay-content">
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="/cart" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </a>
+                      <div class="item">
+                        <a href="">
+                          <img
+                            src="image/product-details/similar1.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar2.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar3.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div class="item">
+                        <a href="">
+                          <img
+                            src="image/product-details/similar1.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar2.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <a href="">
+                          <img
+                            src="image/product-details/similar3.jpg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
                     </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+
+                    <a
+                      class="left item-control"
+                      href="#similar-product"
+                      data-slide="prev"
+                    >
+                      <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a
+                      class="right item-control"
+                      href="#similar-product"
+                      data-slide="next"
+                    >
+                      <i class="fa fa-angle-right"></i>
+                    </a>
                   </div>
                 </div>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product2.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
-                        </a>
-                      </div>
-                      <div class="product-overlay">
-                        <div class="overlay-content">
-                          <h2>$56</h2>
-                          <p>Easy Polo Black Edition</p>
-                          <a href="#" class="btn btn-default add-to-cart">
-                            <i class="fa fa-shopping-cart"></i>Add to cart
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product3.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
-                        </a>
-                      </div>
-                      <div class="product-overlay">
-                        <div class="overlay-content">
-                          <h2>$56</h2>
-                          <p>Easy Polo Black Edition</p>
-                          <a href="#" class="btn btn-default add-to-cart">
-                            <i class="fa fa-shopping-cart"></i>Add to cart
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product4.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
-                        </a>
-                      </div>
-                      <div class="product-overlay">
-                        <div class="overlay-content">
-                          <h2>$56</h2>
-                          <p>Easy Polo Black Edition</p>
-                          <a href="#" class="btn btn-default add-to-cart">
-                            <i class="fa fa-shopping-cart"></i>Add to cart
-                          </a>
-                        </div>
-                      </div>
-                      <img src="image/home/new.png" class="new" alt="" />
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product5.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
-                        </a>
-                      </div>
-                      <div class="product-overlay">
-                        <div class="overlay-content">
-                          <h2>$56</h2>
-                          <p>Easy Polo Black Edition</p>
-                          <a href="#" class="btn btn-default add-to-cart">
-                            <i class="fa fa-shopping-cart"></i>Add to cart
-                          </a>
-                        </div>
-                      </div>
-                      <img src="image/home/sale.png" class="new" alt="" />
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-4">
-                  <div class="product-image-wrapper">
-                    <div class="single-products">
-                      <div class="productinfo text-center">
-                        <img src="image/home/product6.jpg" alt="" />
-                        <h2>$56</h2>
-                        <p>Easy Polo Black Edition</p>
-                        <a href="#" class="btn btn-default add-to-cart">
-                          <i class="fa fa-shopping-cart"></i>Add to cart
-                        </a>
-                      </div>
-                      <div class="product-overlay">
-                        <div class="overlay-content">
-                          <h2>$56</h2>
-                          <p>Easy Polo Black Edition</p>
-                          <a href="#" class="btn btn-default add-to-cart">
-                            <i class="fa fa-shopping-cart"></i>Add to cart
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="choose">
-                      <ul class="nav nav-pills nav-justified">
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to wishlist
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fa fa-plus-square"></i>Add to compare
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                <div class="col-sm-7">
+                  <div class="product-information">
+                    <img
+                      src="image/product-details/new.jpg"
+                      class="newarrival"
+                      alt=""
+                    />
+                    <h2>Anne Klein Sleeveless Colorblock Scuba</h2>
+                    <p>Web ID: 1089772</p>
+                    <img src="image/product-details/rating.png" alt="" />
+                    <span>
+                      <span>US $59</span>
+                      <label>Quantity:</label>
+                      <input type="text" value="3" />
+                      <button type="button" class="btn btn-fefault cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        Add to cart
+                      </button>
+                    </span>
+                    <p>
+                      <b>Availability:</b> In Stock
+                    </p>
+                    <p>
+                      <b>Condition:</b> New
+                    </p>
+                    <p>
+                      <b>Brand:</b> E-SHOPPER
+                    </p>
+                    <a href="">
+                      <img
+                        src="image/product-details/share.png"
+                        class="share img-responsive"
+                        alt=""
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
 
-              <div class="category-tab">
+              <div class="category-tab shop-details-tab">
                 <div class="col-sm-12">
                   <ul class="nav nav-tabs">
+                    <li>
+                      <a href="#details" data-toggle="tab">
+                        Details
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#companyprofile" data-toggle="tab">
+                        Company Profile
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#tag" data-toggle="tab">
+                        Tag
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#reviews" data-toggle="tab">
+                        Reviews (5)
+                      </a>
+                    </li>
                     <li class="active">
-                      <a href="#tshirt" data-toggle="tab">
-                        T-Shirt
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#blazers" data-toggle="tab">
-                        Blazers
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#sunglass" data-toggle="tab">
-                        Sunglass
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#kids" data-toggle="tab">
-                        Kids
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#poloshirt" data-toggle="tab">
-                        Polo shirt
+                      <a href="#comment" data-toggle="tab">
+                        Comment
                       </a>
                     </li>
                   </ul>
                 </div>
                 <div class="tab-content">
-                  <div class="tab-pane fade active in" id="tshirt">
+                  <div class="tab-pane fade" id="details">
                     <div class="col-sm-3">
                       <div class="product-image-wrapper">
                         <div class="single-products">
@@ -883,9 +649,12 @@ function home() {
                             <img src="image/home/gallery1.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -897,9 +666,12 @@ function home() {
                             <img src="image/home/gallery2.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -911,9 +683,12 @@ function home() {
                             <img src="image/home/gallery3.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -925,26 +700,32 @@ function home() {
                             <img src="image/home/gallery4.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="blazers">
+                  <div class="tab-pane fade" id="companyprofile">
                     <div class="col-sm-3">
                       <div class="product-image-wrapper">
                         <div class="single-products">
                           <div class="productinfo text-center">
-                            <img src="image/home/gallery4.jpg" alt="" />
+                            <img src="image/home/gallery1.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -956,9 +737,12 @@ function home() {
                             <img src="image/home/gallery3.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -970,9 +754,12 @@ function home() {
                             <img src="image/home/gallery2.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -981,47 +768,22 @@ function home() {
                       <div class="product-image-wrapper">
                         <div class="single-products">
                           <div class="productinfo text-center">
-                            <img src="image/home/gallery1.jpg" alt="" />
+                            <img src="image/home/gallery4.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="sunglass">
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery3.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery4.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  <div class="tab-pane fade" id="tag">
                     <div class="col-sm-3">
                       <div class="product-image-wrapper">
                         <div class="single-products">
@@ -1029,9 +791,12 @@ function home() {
                             <img src="image/home/gallery1.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
                           </div>
                         </div>
                       </div>
@@ -1043,130 +808,106 @@ function home() {
                             <img src="image/home/gallery2.jpg" alt="" />
                             <h2>$56</h2>
                             <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
                               <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="product-image-wrapper">
+                        <div class="single-products">
+                          <div class="productinfo text-center">
+                            <img src="image/home/gallery3.jpg" alt="" />
+                            <h2>$56</h2>
+                            <p>Easy Polo Black Edition</p>
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
+                              <i class="fa fa-shopping-cart"></i>Add to cart
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="product-image-wrapper">
+                        <div class="single-products">
+                          <div class="productinfo text-center">
+                            <img src="image/home/gallery4.jpg" alt="" />
+                            <h2>$56</h2>
+                            <p>Easy Polo Black Edition</p>
+                            <button
+                              type="button"
+                              class="btn btn-default add-to-cart"
+                            >
+                              <i class="fa fa-shopping-cart"></i>Add to cart
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="kids">
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery1.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery2.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery3.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery4.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                  <div class="tab-pane fade" id="reviews">
+                    <div class="col-sm-12">
+                      <ul>
+                        <li>
+                          <a href="">
+                            <i class="fa fa-user"></i>EUGEN
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fa fa-clock-o"></i>12:41 PM
+                          </a>
+                        </li>
+                        <li>
+                          <a href="">
+                            <i class="fa fa-calendar-o"></i>31 DEC 2014
+                          </a>
+                        </li>
+                      </ul>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        ea commodo consequat.Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur.
+                      </p>
+                      <p>
+                        <b>Write Your Review</b>
+                      </p>
+
+                      <form action="#">
+                        <span>
+                          <input type="text" placeholder="Your Name" />
+                          <input type="email" placeholder="Email Address" />
+                        </span>
+                        <textarea name=""></textarea>
+                        <b>Rating: </b>{" "}
+                        <img src="image/product-details/rating.png" alt="" />
+                        <button
+                          type="button"
+                          class="btn btn-default pull-right"
+                        >
+                          Submit
+                        </button>
+                      </form>
                     </div>
                   </div>
 
-                  <div class="tab-pane fade" id="poloshirt">
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery2.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery4.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery3.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-3">
-                      <div class="product-image-wrapper">
-                        <div class="single-products">
-                          <div class="productinfo text-center">
-                            <img src="image/home/gallery1.jpg" alt="" />
-                            <h2>$56</h2>
-                            <p>Easy Polo Black Edition</p>
-                            <a href="#" class="btn btn-default add-to-cart">
-                              <i class="fa fa-shopping-cart"></i>Add to cart
-                            </a>
-                          </div>
-                        </div>
-                      </div>
+                  <div class="tab-pane fade active in" id="comment">
+                    <div class="col-sm-12">
+                      <h2>Comment</h2>
+                      <textarea name=""></textarea>
                     </div>
                   </div>
                 </div>
@@ -1189,9 +930,12 @@ function home() {
                               <img src="image/home/recommend1.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1203,9 +947,12 @@ function home() {
                               <img src="image/home/recommend2.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1217,9 +964,12 @@ function home() {
                               <img src="image/home/recommend3.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1233,9 +983,12 @@ function home() {
                               <img src="image/home/recommend1.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1247,9 +1000,12 @@ function home() {
                               <img src="image/home/recommend2.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1261,9 +1017,12 @@ function home() {
                               <img src="image/home/recommend3.jpg" alt="" />
                               <h2>$56</h2>
                               <p>Easy Polo Black Edition</p>
-                              <a href="#" class="btn btn-default add-to-cart">
+                              <button
+                                type="button"
+                                class="btn btn-default add-to-cart"
+                              >
                                 <i class="fa fa-shopping-cart"></i>Add to cart
-                              </a>
+                              </button>
                             </div>
                           </div>
                         </div>
@@ -1385,19 +1144,19 @@ function home() {
                   <h2>Service</h2>
                   <ul class="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">Online Help</a>
+                      <a href="">Online Help</a>
                     </li>
                     <li>
-                      <a href="#">Contact Us</a>
+                      <a href="">Contact Us</a>
                     </li>
                     <li>
-                      <a href="#">Order Status</a>
+                      <a href="">Order Status</a>
                     </li>
                     <li>
-                      <a href="#">Change Location</a>
+                      <a href="">Change Location</a>
                     </li>
                     <li>
-                      <a href="#">FAQ’s</a>
+                      <a href="">FAQ’s</a>
                     </li>
                   </ul>
                 </div>
@@ -1407,19 +1166,19 @@ function home() {
                   <h2>Quock Shop</h2>
                   <ul class="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">T-Shirt</a>
+                      <a href="">T-Shirt</a>
                     </li>
                     <li>
-                      <a href="#">Mens</a>
+                      <a href="">Mens</a>
                     </li>
                     <li>
-                      <a href="#">Womens</a>
+                      <a href="">Womens</a>
                     </li>
                     <li>
-                      <a href="#">Gift Cards</a>
+                      <a href="">Gift Cards</a>
                     </li>
                     <li>
-                      <a href="#">Shoes</a>
+                      <a href="">Shoes</a>
                     </li>
                   </ul>
                 </div>
@@ -1429,19 +1188,19 @@ function home() {
                   <h2>Policies</h2>
                   <ul class="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">Terms of Use</a>
+                      <a href="">Terms of Use</a>
                     </li>
                     <li>
-                      <a href="#">Privecy Policy</a>
+                      <a href="">Privecy Policy</a>
                     </li>
                     <li>
-                      <a href="#">Refund Policy</a>
+                      <a href="">Refund Policy</a>
                     </li>
                     <li>
-                      <a href="#">Billing System</a>
+                      <a href="">Billing System</a>
                     </li>
                     <li>
-                      <a href="#">Ticket System</a>
+                      <a href="">Ticket System</a>
                     </li>
                   </ul>
                 </div>
@@ -1451,19 +1210,19 @@ function home() {
                   <h2>About Shopper</h2>
                   <ul class="nav nav-pills nav-stacked">
                     <li>
-                      <a href="#">Company Information</a>
+                      <a href="">Company Information</a>
                     </li>
                     <li>
-                      <a href="#">Careers</a>
+                      <a href="">Careers</a>
                     </li>
                     <li>
-                      <a href="#">Store Location</a>
+                      <a href="">Store Location</a>
                     </li>
                     <li>
-                      <a href="#">Affillate Program</a>
+                      <a href="">Affillate Program</a>
                     </li>
                     <li>
-                      <a href="#">Copyright</a>
+                      <a href="">Copyright</a>
                     </li>
                   </ul>
                 </div>
@@ -1505,14 +1264,8 @@ function home() {
           </div>
         </div>
       </footer>
-      <script src="/main_assets/js/jquery.js"></script>
-      <script src="/main_assets/js/bootstrap.min.js"></script>
-      <script src="/main_assets/js/jquery.scrollUp.min.js"></script>
-      <script src="/main_assets/js/price-range.js"></script>
-      <script src="/main_assets/js/jquery.prettyPhoto.js"></script>
-      <script src="/main_assets/js/main.js"></script>
     </div>
   );
 }
 
-export default home;
+export default detail;
