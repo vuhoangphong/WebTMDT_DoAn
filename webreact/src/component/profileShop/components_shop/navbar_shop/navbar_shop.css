@@ -63,3 +63,23 @@
     display: none;
   }
 }
+
+
+#userinfo > div {
+  display:inline-block;
+}
+/* .dropdown {
+  padding:20px 5px;
+  width:170px;
+  height:42px;
+  position:absolute;
+  top:0px;
+}  */
+#avatar {
+  width:40px;
+  height:40px;
+  border-radius:100%;
+}
+#avatar_box {
+  width:42px;
+}
