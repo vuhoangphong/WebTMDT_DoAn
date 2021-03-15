@@ -1,10 +1,10 @@
 //import logo from './logo.svg';
 import "./App.css";
-import home from "./component/home/home";
-import admin from "./component/admin/admin";
+import home from "./component/home/home.jsx";
+import admin from "./component/admin/admin.jsx";
 import detail from "./component/detail/detail.jsx";
-import login from "./component/login/login";
-import profileShop from "./component/profileShop/profileShop";
+import login from "./component/login/login.jsx";
+import profileShop from "./component/profileShop/profileShop.jsx";
 import profileUser from "./component/profileUser/profileUser";
 import register from "./component/register/register";
 import search from "./component/search/search";
