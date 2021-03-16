@@ -3,97 +3,97 @@ import "./Main_recomment.css";
 
 function Main_recomment() {
   return (
-    <div class="recommended_items">
-      <h2 class="title text-center">recommended items</h2>
+    <div className="recommended_items">
+      <h2 className="title text-center">recommended items</h2>
 
       <div
         id="recommended-item-carousel"
-        class="carousel slide"
+        className="carousel slide"
         data-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+        <div className="carousel-inner">
+          <div className="item active">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend1.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend2.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend3.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="item">
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+          <div className="item">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend1.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend2.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
-              <div class="product-image-wrapper">
-                <div class="single-products">
-                  <div class="productinfo text-center">
+            <div className="col-sm-4">
+              <div className="product-image-wrapper">
+                <div className="single-products">
+                  <div className="productinfo text-center">
                     <img src="image/home/recommend3.jpg" alt="" />
                     <h2>$56</h2>
                     <p>Easy Polo Black Edition</p>
-                    <a href="#" class="btn btn-default add-to-cart">
-                      <i class="fa fa-shopping-cart"></i>Add to cart
+                    <a href="#" className="btn btn-default add-to-cart">
+                      <i className="fa fa-shopping-cart"></i>Add to cart
                     </a>
                   </div>
                 </div>
@@ -102,18 +102,18 @@ function Main_recomment() {
           </div>
         </div>
         <a
-          class="left recommended-item-control"
+          className="left recommended-item-control"
           href="#recommended-item-carousel"
           data-slide="prev"
         >
-          <i class="fa fa-angle-left"></i>
+          <i className="fa fa-angle-left"></i>
         </a>
         <a
-          class="right recommended-item-control"
+          className="right recommended-item-control"
           href="#recommended-item-carousel"
           data-slide="next"
         >
-          <i class="fa fa-angle-right"></i>
+          <i className="fa fa-angle-right"></i>
         </a>
       </div>
     </div>

@@ -3,11 +3,11 @@ import "./Footer_top.css";
 
 function Footer_top() {
   return (
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-2">
-            <div class="companyinfo">
+    <div className="footer-top">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-2">
+            <div className="companyinfo">
               <h2>
                 <span>e</span>-shopper
               </h2>
@@ -17,15 +17,15 @@ function Footer_top() {
               </p>
             </div>
           </div>
-          <div class="col-sm-7">
-            <div class="col-sm-3">
-              <div class="video-gallery text-center">
+          <div className="col-sm-7">
+            <div className="col-sm-3">
+              <div className="video-gallery text-center">
                 <a href="#">
-                  <div class="iframe-img">
+                  <div className="iframe-img">
                     <img src="image/home/iframe1.png" alt="" />
                   </div>
-                  <div class="overlay-icon">
-                    <i class="fa fa-play-circle-o"></i>
+                  <div className="overlay-icon">
+                    <i className="fa fa-play-circle-o"></i>
                   </div>
                 </a>
                 <p>Circle of Hands</p>
@@ -33,14 +33,14 @@ function Footer_top() {
               </div>
             </div>
 
-            <div class="col-sm-3">
-              <div class="video-gallery text-center">
+            <div className="col-sm-3">
+              <div className="video-gallery text-center">
                 <a href="#">
-                  <div class="iframe-img">
+                  <div className="iframe-img">
                     <img src="image/home/iframe2.png" alt="" />
                   </div>
-                  <div class="overlay-icon">
-                    <i class="fa fa-play-circle-o"></i>
+                  <div className="overlay-icon">
+                    <i className="fa fa-play-circle-o"></i>
                   </div>
                 </a>
                 <p>Circle of Hands</p>
@@ -48,14 +48,14 @@ function Footer_top() {
               </div>
             </div>
 
-            <div class="col-sm-3">
-              <div class="video-gallery text-center">
+            <div className="col-sm-3">
+              <div className="video-gallery text-center">
                 <a href="#">
-                  <div class="iframe-img">
+                  <div className="iframe-img">
                     <img src="image/home/iframe3.png" alt="" />
                   </div>
-                  <div class="overlay-icon">
-                    <i class="fa fa-play-circle-o"></i>
+                  <div className="overlay-icon">
+                    <i className="fa fa-play-circle-o"></i>
                   </div>
                 </a>
                 <p>Circle of Hands</p>
@@ -63,14 +63,14 @@ function Footer_top() {
               </div>
             </div>
 
-            <div class="col-sm-3">
-              <div class="video-gallery text-center">
+            <div className="col-sm-3">
+              <div className="video-gallery text-center">
                 <a href="#">
-                  <div class="iframe-img">
+                  <div className="iframe-img">
                     <img src="image/home/iframe4.png" alt="" />
                   </div>
-                  <div class="overlay-icon">
-                    <i class="fa fa-play-circle-o"></i>
+                  <div className="overlay-icon">
+                    <i className="fa fa-play-circle-o"></i>
                   </div>
                 </a>
                 <p>Circle of Hands</p>
@@ -78,8 +78,8 @@ function Footer_top() {
               </div>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="address">
+          <div className="col-sm-3">
+            <div className="address">
               <img src="image/home/map.png" alt="" />
               <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
             </div>
