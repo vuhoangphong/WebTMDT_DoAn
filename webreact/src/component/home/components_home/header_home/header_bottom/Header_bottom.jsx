@@ -1,38 +1,38 @@
-import React from 'react';
-import './Header_bottom.css';
+import React from "react";
+import "./Header_bottom.css";
 
 function Header_bottom() {
   return (
-    <div class="header-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-9">
-            <div class="navbar-header">
+    <div className="header-bottom">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-9">
+            <div className="navbar-header">
               <button
                 type="button"
-                class="navbar-toggle"
+                className="navbar-toggle"
                 data-toggle="collapse"
                 data-target=".navbar-collapse"
               >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
               </button>
             </div>
-            <div class="mainmenu pull-left">
-              <ul class="nav navbar-nav collapse navbar-collapse">
+            <div className="mainmenu pull-left">
+              <ul className="nav navbar-nav collapse navbar-collapse">
                 <li>
-                  <a href="index.html" class="active">
+                  <a href="index.html" className="active">
                     Home
                   </a>
                 </li>
 
-                <li class="dropdown">
+                <li className="dropdown">
                   <a href="#">
-                    Shop<i class="fa fa-angle-down"></i>
+                    Shop<i className="fa fa-angle-down"></i>
                   </a>
-                  <ul role="menu" class="sub-menu">
+                  <ul role="menu" className="sub-menu">
                     <li>
                       <a href="shop.html">Products</a>
                     </li>
@@ -51,11 +51,11 @@ function Header_bottom() {
                   </ul>
                 </li>
 
-                <li class="dropdown">
+                <li className="dropdown">
                   <a href="#">
-                    Blog<i class="fa fa-angle-down"></i>
+                    Blog<i className="fa fa-angle-down"></i>
                   </a>
-                  <ul role="menu" class="sub-menu">
+                  <ul role="menu" className="sub-menu">
                     <li>
                       <a href="blog.html">Blog List</a>
                     </li>
@@ -75,8 +75,8 @@ function Header_bottom() {
               </ul>
             </div>
           </div>
-          <div class="col-sm-3">
-            <div class="search_box pull-right">
+          <div className="col-sm-3">
+            <div className="search_box pull-right">
               <input type="text" placeholder="Search" />
             </div>
           </div>

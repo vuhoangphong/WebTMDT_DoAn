@@ -3,13 +3,13 @@ import "./Footer_bottom.css";
 
 function Footer_bottom() {
   return (
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row">
-          <p class="pull-left">
+    <div className="footer-bottom">
+      <div className="container">
+        <div className="row">
+          <p className="pull-left">
             Copyright © 2013 E-SHOPPER Inc. All rights reserved.
           </p>
-          <p class="pull-right">
+          <p className="pull-right">
             Designed by{" "}
             <span>
               <a target="_blank" href="http://www.themeum.com">

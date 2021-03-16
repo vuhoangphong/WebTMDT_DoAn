@@ -10,17 +10,17 @@ import Main_recomment from "./main_right/main_recomment/Main_recomment";
 function main() {
   return (
     <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="left-sidebar">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-3">
+            <div className="left-sidebar">
               <Main_category />
               <Main_brand />
               <Main_price />
               <Main_shipping />
             </div>
           </div>
-          <div class="col-sm-9 padding-right">
+          <div className="col-sm-9 padding-right">
             <Main_feature />
             <Main_category_tab />
             <Main_recomment />

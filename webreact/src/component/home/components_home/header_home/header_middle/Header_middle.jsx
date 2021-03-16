@@ -1,28 +1,28 @@
-import React from 'react';
-import './Header_middle.css';
+import React from "react";
+import "./Header_middle.css";
 
 function Header_middle() {
   return (
-    <div class="header-middle">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 clearfix">
-            <div class="logo pull-left">
+    <div className="header-middle">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4 clearfix">
+            <div className="logo pull-left">
               <a href="/">
                 <img src="image/home/logo.png" alt="" />
               </a>
             </div>
-            <div class="btn-group pull-right clearfix">
-              <div class="btn-group">
+            <div className="btn-group pull-right clearfix">
+              <div className="btn-group">
                 <button
                   type="button"
-                  class="btn btn-default dropdown-toggle usa"
+                  className="btn btn-default dropdown-toggle usa"
                   data-toggle="dropdown"
                 >
                   USA
-                  <span class="caret"></span>
+                  <span className="caret"></span>
                 </button>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
                     <a href="">Canada</a>
                   </li>
@@ -32,16 +32,16 @@ function Header_middle() {
                 </ul>
               </div>
 
-              <div class="btn-group">
+              <div className="btn-group">
                 <button
                   type="button"
-                  class="btn btn-default dropdown-toggle usa"
+                  className="btn btn-default dropdown-toggle usa"
                   data-toggle="dropdown"
                 >
                   DOLLAR
-                  <span class="caret"></span>
+                  <span className="caret"></span>
                 </button>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
                     <a href="">Canadian Dollar</a>
                   </li>
@@ -52,37 +52,37 @@ function Header_middle() {
               </div>
             </div>
           </div>
-          <div class="col-md-8 clearfix">
-            <div class="shop-menu clearfix pull-right">
-              <ul class="nav navbar-nav">
+          <div className="col-md-8 clearfix">
+            <div className="shop-menu clearfix pull-right">
+              <ul className="nav navbar-nav">
                 <li>
                   <a href="/account">
-                    <i class="fa fa-user"></i> Account
+                    <i className="fa fa-user"></i> Account
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i class="fa fa-star"></i> Wishlist
+                    <i className="fa fa-star"></i> Wishlist
                   </a>
                 </li>
                 <li>
                   <a href="/checkout">
-                    <i class="fa fa-crosshairs"></i> Checkout
+                    <i className="fa fa-crosshairs"></i> Checkout
                   </a>
                 </li>
                 <li>
                   <a href="/cart">
-                    <i class="fa fa-shopping-cart"></i> Cart
+                    <i className="fa fa-shopping-cart"></i> Cart
                   </a>
                 </li>
                 <li>
                   <a href="/login">
-                    <i class="fa fa-lock"></i> Login
+                    <i className="fa fa-lock"></i> Login
                   </a>
                 </li>
                 <li>
                   <a href="/register">
-                    <i class="fa fa-lock"></i> Register
+                    <i className="fa fa-lock"></i> Register
                   </a>
                 </li>
               </ul>
