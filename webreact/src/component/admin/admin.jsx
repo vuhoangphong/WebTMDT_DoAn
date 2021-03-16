@@ -1,5 +1,7 @@
 import { useState } from "react";
+import './admin.css'
 import "../../App.css";
+
 import Main from "./components_Admin/main/Main";
 import Navbar from "./components_Admin/navbar/Navbar";
 import Sidebar from "./components_Admin/sidebar/Sidebar";
@@ -13,7 +15,7 @@ const App = () => {
     setsidebarOpen(false);
   };
   return (
-    <div className="container">
+    <div className="container-fuild">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
       <Main />
       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
