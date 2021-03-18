@@ -15,7 +15,7 @@ const App = () => {
     setsidebarOpen(false);
   };
   return (
-    <div className="container">
+    <div className="container-fuild">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
                     <Route>
                        <switch>
