@@ -1,10 +1,12 @@
-import "./Main.css";
-import hello from "../../../../assets/hello.svg";
-import Chart from "../charts/Chart";
+import "./dashboard.css";
+import hello from "../../../assets/hello.svg";
+import Chart from "../components_Admin/charts/Chart";
+import { Component } from "react";
 
-const Main = () => {
-  return (
-    <main>
+
+export class Dashboard extends Component {
+  render() {
+    return (
       <div className="main__container">
         {/* <!-- MAIN TITLE STARTS HERE --> */}
 
@@ -107,8 +109,10 @@ const Main = () => {
         </div>
         {/* <!-- CHARTS ENDS HERE --> */}
       </div>
-    </main>
-  );
-};
+   
+    )
+  }
+}
 
-export default Main;
+export default Dashboard
+

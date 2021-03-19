@@ -2,9 +2,12 @@ import { useState } from "react";
 import './admin.css'
 import "../../App.css";
 
-import Main from "./components_Admin/main/Main";
+
 import Navbar from "./components_Admin/navbar/Navbar";
 import Sidebar from "./components_Admin/sidebar/Sidebar";
+import { Route } from "react-router";
+import category from "./category_Admin/category";
+import Dashboard from "./dashboard_Admin/dashboard";
 
 const App = () => {
   const [sidebarOpen, setsidebarOpen] = useState(false);
@@ -17,7 +20,12 @@ const App = () => {
   return (
     <div className="container-fuild">
       <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
-      <Main />
+      <Route>
+        <switch>
+          <Route path="/admin" exact component={Dashboard} />
+          <Route path="/admin/category" exact component={category} />
+        </switch>
+      </Route>
       <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
     </div>
   );
