@@ -8,8 +8,9 @@ import profileShop from "./component/profileShop/profileShop.jsx";
 import profileUser from "./component/profileUser/profileUser";
 import register from "./component/register/register";
 import search from "./component/search/search";
-import registershop from "./component/shop/RegisterShop/registershop"
-import loginshop from "./component/shop/LoginShop/loginshop"
+import registershop from "./component/shop/RegisterShop/registershop";
+import loginshop from "./component/shop/LoginShop/loginshop";
+import cart from "./component/cart/cart.jsx";
 // import CheckOut from './component/checkOut/CheckOut'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Manager_Shop from "./component/manager_Shop/manager_Shop";
@@ -31,6 +32,7 @@ function App() {
           <Route path="/search" component={search} />
           <Route path="/registershop" component={registershop} />
           <Route path="/loginshop" component={loginshop} />
+          <Route path="/cart" component={cart} />
         </Switch>
       </Router>
     </div>

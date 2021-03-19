@@ -16,15 +16,13 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <a href="/detail">
-              <div className="product-overlay">
-                <div className="overlay-content">
-                  <h2>$56</h2>
-                  <p>Easy Polo Black Edition</p>
-                  <a href="/cart" className="btn btn-default add-to-cart">
-                    <i className="fa fa-shopping-cart"></i>Add to cart
-                  </a>
-                </div>
+            <a href="/detail" className="product-overlay">
+              <div className="overlay-content">
+                <h2>$56</h2>
+                <p>Easy Polo Black Edition</p>
+                <a href="/cart" className="btn btn-default add-to-cart">
+                  <i className="fa fa-shopping-cart"></i>Add to cart
+                </a>
               </div>
             </a>
           </div>
@@ -55,7 +53,7 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <div className="product-overlay">
+            <a href="/detail" className="product-overlay">
               <div className="overlay-content">
                 <h2>$56</h2>
                 <p>Easy Polo Black Edition</p>
@@ -63,7 +61,7 @@ function Main_feature() {
                   <i className="fa fa-shopping-cart"></i>Add to cart
                 </a>
               </div>
-            </div>
+            </a>
           </div>
           <div className="choose">
             <ul className="nav nav-pills nav-justified">
@@ -92,7 +90,7 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <div className="product-overlay">
+            <a href="/detail" className="product-overlay">
               <div className="overlay-content">
                 <h2>$56</h2>
                 <p>Easy Polo Black Edition</p>
@@ -100,7 +98,7 @@ function Main_feature() {
                   <i className="fa fa-shopping-cart"></i>Add to cart
                 </a>
               </div>
-            </div>
+            </a>
           </div>
           <div className="choose">
             <ul className="nav nav-pills nav-justified">
@@ -129,7 +127,7 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <div className="product-overlay">
+            <a href="/detail" className="product-overlay">
               <div className="overlay-content">
                 <h2>$56</h2>
                 <p>Easy Polo Black Edition</p>
@@ -137,7 +135,7 @@ function Main_feature() {
                   <i className="fa fa-shopping-cart"></i>Add to cart
                 </a>
               </div>
-            </div>
+            </a>
             <img src="image/home/new.png" className="new" alt="" />
           </div>
           <div className="choose">
@@ -167,7 +165,7 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <div className="product-overlay">
+            <a href="/detail" className="product-overlay">
               <div className="overlay-content">
                 <h2>$56</h2>
                 <p>Easy Polo Black Edition</p>
@@ -175,7 +173,7 @@ function Main_feature() {
                   <i className="fa fa-shopping-cart"></i>Add to cart
                 </a>
               </div>
-            </div>
+            </a>
             <img src="image/home/sale.png" className="new" alt="" />
           </div>
           <div className="choose">
@@ -205,7 +203,7 @@ function Main_feature() {
                 <i className="fa fa-shopping-cart"></i>Add to cart
               </a>
             </div>
-            <div className="product-overlay">
+            <a href="/detail" className="product-overlay">
               <div className="overlay-content">
                 <h2>$56</h2>
                 <p>Easy Polo Black Edition</p>
@@ -213,7 +211,7 @@ function Main_feature() {
                   <i className="fa fa-shopping-cart"></i>Add to cart
                 </a>
               </div>
-            </div>
+            </a>
           </div>
           <div className="choose">
             <ul className="nav nav-pills nav-justified">
