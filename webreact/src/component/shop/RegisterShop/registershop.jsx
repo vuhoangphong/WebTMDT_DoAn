@@ -37,7 +37,7 @@ function registershop() {
                         <div class="custom-select">
                             <label for="tinhthanh"><b>Tỉnh/Thành</b></label>
                             <select>
-                                <option value="0"></option>
+                                <option value="" selected>---Chọn Tỉnh/Thành---</option>
                                 <option value="1">An Giang</option>
                                 <option value="2">Bạc Liêu</option>
                                 <option value="3">Bình Dương</option>
